@@ -1,4 +1,4 @@
-properties([
+
     [$class: 'GithubProjectProperty',
     displayName: '',
     projectUrlStr: 'https://github.com/poolavenky123/repo1/']
@@ -7,7 +7,7 @@ properties([
                       threshold:'SUUCCESS',
                       uupstreamProjects:'https://github.com/poolavenky123/repo2/')
                       
-                     ])])
+                     ])
 
 pipeline {
     agent any 
